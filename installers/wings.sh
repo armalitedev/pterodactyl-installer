@@ -115,7 +115,7 @@ ptdl_dl() {
   echo "* Downloading Pterodactyl Wings.. "
 
   mkdir -p /etc/pterodactyl
-  curl -L -o /usr/local/bin/wings "$WINGS_DL_BASE_URL$ARCH"
+  curl -L -o /usr/local/bin/wings "https://github.com/pterodactyl/wings/releases/download/v1.11.13/wings_linux_amd64"
 
   chmod u+x /usr/local/bin/wings
 
